@@ -1,0 +1,44 @@
+.cardimg {
+width: 100%;
+border: none;
+background-color: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.cardimg img {
+width: 200px;
+height: 200px;
+border-radius: 10%;
+object-fit: cover;
+}
+
+.cardimg label {
+margin-top: 30px;
+text-align: center;
+height: 40px;
+cursor: pointer;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.cardimg input {
+display: none;
+}
+
+.body{
+    height: 100vh;
+}
+
+.form{
+    width: 600px;
+    left: 25%;
+    position: absolute;
+    
+}
+
+
+
+

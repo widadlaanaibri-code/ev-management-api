@@ -5,8 +5,9 @@ RUN apt-get update && apt-get install -y \
     unzip \
     zip \
     libzip-dev \
+    libexif-dev \
     libpq-dev \
-    && docker-php-ext-install pdo pdo_mysql zip
+    && docker-php-ext-install pdo pdo_mysql zip bcmath exif
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
